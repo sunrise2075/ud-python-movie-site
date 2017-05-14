@@ -25,4 +25,10 @@ transformer = media.Movie("Transformer",
 
 movie_list = [toy_story, avatar, transformer]
 
-fresh_tomatoes.open_movies_page(movie_list)
+# fresh_tomatoes.open_movies_page(movie_list)
+
+print media.Movie.__doc__
+
+print media.Movie.__name__
+
+print media.Movie.__module__
